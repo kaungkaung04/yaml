@@ -1,0 +1,8 @@
+database: &common
+  host: db.example.net
+  port: 3306
+  enabled: true
+  legacy: yes
+
+database_new:
+  <<: *common
